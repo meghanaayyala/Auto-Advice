@@ -1124,15 +1124,15 @@ if nav=="Check User Reviews":
 
         
         
-  if nav=="Contact":
+if nav=="Contact":
     st.title("Contact Us")
     contact_form = """
     <form action="https://formsubmit.co/autoadvice22@gmail.com" method="POST">
-         <input type="hidden" name="_captcha" value="false">
-         <input type="text" name="name" placeholder="Your name" required>
-         <input type="email" name="email" placeholder="Your email" required>
-         <textarea name="message" placeholder="Your message here"></textarea>
-         <button type="submit">Send</button>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" placeholder="Your message here"></textarea>
+            <button type="submit">Send</button>
     </form>
     """
 
