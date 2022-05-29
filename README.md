@@ -29,3 +29,12 @@ pip install -r requirements.txt    # installs dependencies and requirements
 streamlit run appcar.py            # This is the main file of the project
 ```
 
+# Hosting
+The project is hosted at [Auto Advice Streamlit] (https://share.streamlit.io/meghanaayyala/auto-advice/main/appcar.py). 
+
+# Auto Advice Features
+Home Page of the Application
+![image](https://user-images.githubusercontent.com/76214336/170860664-ac0b2688-b851-4016-886e-6c129f722d40.png)
+
+
+
