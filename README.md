@@ -75,11 +75,14 @@ A PDF file of the presentation has also been linked
 
 # Links
 [Demo Video](https://drive.google.com/file/d/1BT9oK-tGKN7itQnJmAA6_f4vuMWKsTYr/view?usp=sharing)
+<br>
 [Hosted Website](https://share.streamlit.io/meghanaayyala/auto-advice/main/appcar.py)
 
 # Contact Details
 Meghana Ayyala Somayajula
+<br>
 meghanaayyalasomayajula@gmail.com
+<br>
 [LinkedIn](https://www.linkedin.com/in/meghana-ayyala-somayajula/)
 
 
