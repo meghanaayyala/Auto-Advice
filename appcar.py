@@ -362,7 +362,8 @@ if nav=="Home":
     st.markdown("This is an app to help you make decisions for your automotive company based on data. Using a variety of methods such as data analysis, machine learning models we help you make your company get the best results.")
     st.image('images/carheader.jpg')
 
-    st.markdown("Check out more about this project at [GitHub](www.github.com)")
+    st.markdown("Check out more about this project at [GitHub](https://github.com/meghanaayyala/Auto-Advice)")
+    
 
 
 
