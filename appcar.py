@@ -1132,6 +1132,7 @@ if nav=="Contact":
             <input type="text" name="name" placeholder="Your name" required>
             <input type="email" name="email" placeholder="Your email" required>
             <textarea name="message" placeholder="Your message here"></textarea>
+            <input type="hidden" name="_next" value="https://share.streamlit.io/meghanaayyala/auto-advice/main/appcar.py">
             <button type="submit">Send</button>
     </form>
     """
