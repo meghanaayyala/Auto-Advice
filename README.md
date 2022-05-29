@@ -30,7 +30,7 @@ streamlit run appcar.py            # This is the main file of the project
 ```
 
 # Hosting
-The project is hosted at [Auto Advice Streamlit] (https://share.streamlit.io/meghanaayyala/auto-advice/main/appcar.py). 
+The project is hosted at [Auto Advice Streamlit](https://share.streamlit.io/meghanaayyala/auto-advice/main/appcar.py). 
 
 # Auto Advice Features
 Home Page of the Application
