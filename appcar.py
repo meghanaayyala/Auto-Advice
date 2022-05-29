@@ -342,8 +342,8 @@ def plot_x_per_fuel(df_data,attr,measure): #total #against, #conceived
 with st.sidebar:
     nav=option_menu(
         menu_title="Auto Advice",
-        options=["Home","Vahan Dashboard Data","Used Cars Data Analysis","Check Similar Cars","Predict Mileage","Predict CO2 Emission","Car Evaluation","Check User Reviews","Update Dataset"],
-        icons=["house","bar-chart-fill","pie-chart-fill","card-checklist","speedometer","graph-up","check-circle","people-fill","pen-fill"],
+        options=["Home","Vahan Dashboard Data","Used Cars Data Analysis","Check Similar Cars","Predict Mileage","Predict CO2 Emission","Car Evaluation","Check User Reviews","Update Dataset","Contact"],
+        icons=["house","bar-chart-fill","pie-chart-fill","card-checklist","speedometer","graph-up","check-circle","people-fill","pen-fill","envelope-fill"],
         menu_icon="cast",
         )
     
@@ -1122,6 +1122,21 @@ if nav=="Check User Reviews":
         
 
 
+        
+        
+  if nav=="Contact":
+    st.title("Contact Us")
+    contact_form = """
+    <form action="https://formsubmit.co/autoadvice22@gmail.com" method="POST">
+         <input type="hidden" name="_captcha" value="false">
+         <input type="text" name="name" placeholder="Your name" required>
+         <input type="email" name="email" placeholder="Your email" required>
+         <textarea name="message" placeholder="Your message here"></textarea>
+         <button type="submit">Send</button>
+    </form>
+    """
+
+    st.markdown(contact_form, unsafe_allow_html=True)
 
     
         
