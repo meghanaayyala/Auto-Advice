@@ -13,6 +13,19 @@ Customer segments, Most popular car specification combination (engine type, fuel
 Any other queries you can think of
 
 
-# Features of Auto Advice
+# Set Up
 
+Clone the repository and set up a local environment in your device. 
+
+```
+git clone https://github.com/meghanaayyala/Auto-Advice.git
+
+```
+
+Install requirements.txt
+
+```
+pip install -r requirements.txt    # installs dependencies and requirements
+streamlit run appcar.py            # This is the main file of the project
+```
 
